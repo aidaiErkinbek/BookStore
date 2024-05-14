@@ -11,10 +11,7 @@ function Header() {
         <div className="Head flex">
           <Logo />
           <Menu />
-          <div className="Buttons flex">
-            <Button>Login</Button>
-            <Button>Sign In</Button>
-          </div>
+          <Button/>
           <Link to="/cart" className="Cart_ic">
             <span>10</span>
           </Link>
@@ -25,3 +22,7 @@ function Header() {
 }
 
 export default Header;
+  // <div className="Buttons flex">
+  //             <Button>Login</Button>
+  //             <Button>Sign In</Button>
+  //           </div>
