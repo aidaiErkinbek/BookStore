@@ -3,6 +3,7 @@ import Menu from '../Menu/Menu';
 import Button from '../Button/Button';
 import Logo from '../Logo/Logo';
 import {Link} from 'react-router-dom'
+import basket from '../../img/icons/basket.svg'
 
 function Header() {
   return (
@@ -11,9 +12,11 @@ function Header() {
         <div className="Head flex">
           <Logo />
           <Menu />
-          <Button/>
+          <Link to="" className="Cart_ic">
+          
+          </Link>
           <Link to="/cart" className="Cart_ic">
-            <span>10</span>
+          <img src={basket} alt=""/>
           </Link>
         </div>
       </div>
@@ -22,7 +25,3 @@ function Header() {
 }
 
 export default Header;
-  // <div className="Buttons flex">
-  //             <Button>Login</Button>
-  //             <Button>Sign In</Button>
-  //           </div>
