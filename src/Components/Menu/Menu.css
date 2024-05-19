@@ -1,4 +1,3 @@
-.Menu{
-	width: calc((100% - 45px) / 4);
-
+.Menu li{
+	margin: 0 5px;
 }

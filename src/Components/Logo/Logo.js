@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Logo() {
   return (
     <>
-    <Link href="index.html" class="logo">
+    <Link href="#" class="logo">
 					<img src={logos} alt=""/>
 				</Link>
     </>
