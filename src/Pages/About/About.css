@@ -1,0 +1,22 @@
+.ourStory{
+    background-color: #442783;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.AboutTit{
+    color: #442783;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.AboutTxt{
+    text-align: justify;
+    padding: 25px 5px;
+}
+.aboutImg{
+    height: 300px;
+    width: 150px;
+    text-align: center;
+}

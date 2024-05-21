@@ -12,8 +12,3 @@ function Button() {
 }
 
 export default Button;
-
-{/* <div className="Buttons flex">
-              <Button>Login</Button>
-             <Button>Sign In</Button>
-           </div> */}

@@ -1,11 +1,9 @@
 import './Header.css';
 import Menu from '../Menu/Menu';
-import Button from '../Button/Button';
 import Logo from '../Logo/Logo';
 import { Link } from 'react-router-dom'
 import basket from '../../img/icons/basket.svg'
 import Fav from '../../img/icons/favorite.svg'
-import Favorites from '../../Pages/Favorites/Favorites';
 
 function Header() {
   return (
