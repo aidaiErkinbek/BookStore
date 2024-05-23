@@ -1,0 +1,47 @@
+.BestTit{
+    color: #008575;
+    font-size: 16px;
+}
+.BestTit:hover{
+    border-bottom: 1px solid;
+}
+.Tit{
+    font-weight: 300;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    margin-top: -10px;
+}
+.bestIn{
+    width: 170px;
+    height: 290px;
+}
+.cartName{
+    font-weight: 600;
+    color: #008575;
+    height: 2.25rem;
+    overflow: hidden;
+    font-size: .9rem;
+}
+.imgCart{
+    height: 265px;
+    width: 170px;
+}
+.priceTit{
+    font-size: .8rem;
+    overflow: hidden;
+    height: 1rem;
+    color: #363636;
+    font-weight: 400;
+    white-space: normal
+}
+.price{
+    font-size: .8rem;
+    font-weight: 400;
+    color: red;
+}
+.bestCartIn{
+   margin-bottom: 50px;
+}
