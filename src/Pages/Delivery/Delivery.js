@@ -13,7 +13,7 @@ function Delivery() {
 <div className='deliveryInf '>
 <div className='deliveryIn flex'>
 <p className='upTxt'>Our goal is for you to be delighted with each item you purchase on BookDaSH, so we back every purchase with our BookDaSH Guarantee. We guarantee that:</p>
-<p className='need'>NEED TO REQUEST A RETURN?<Link className='click' to='#'>Click here.</Link></p>
+<p className='need'><i>NEED TO REQUEST A RETURN?</i><br></br><Link className='click' to='#'>Click here.</Link></p>
 </div>
 <div className='list'>
 <ul>

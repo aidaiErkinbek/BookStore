@@ -1,16 +1,29 @@
-.Shipping{
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-.Del{
-    color: #707070;
+.delTit{
+    color: #008575;
+    font-weight: 600;
     margin-bottom: 15px;
+    font-size: 22px;
 }
-.Ship{
-    margin-bottom: 25px;
-    font-size: 1.953rem;
-    font-weight: 400;
+.delTitGr{
+    margin-bottom: 15px;
+    font-size: 22px;   
 }
-.WeShip{
-    margin-bottom: 10px;
+.upTxt{
+    width: 600px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.need{
+    color: #008575;
+    background-color: rgb(136, 217, 216);  
+    padding: 25px 10px;
+  
+}
+.list{
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.delTxt{
+    font-size: 16px;
+    margin-bottom: 15px; 
 }
