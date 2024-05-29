@@ -17,11 +17,11 @@ function Contacts() {
       </div>
       <p className='contTxt'><b>Address:</b>  2 Ennerdale Civic center CNR/Katz RD and Smith Ennerdale, Gauteng</p>
       <div className='contLogo'>
-      <img src={envelope} alt="" />
+      <img src={phone} alt="" />
       </div>
       <p className='contTxt'><b> Phone:</b>(000)</p>
       <div className='contLogo'>
-      <img src={phone} alt="" />
+      <img src={envelope} alt="" />
       </div>
       <p className='contTxt'><b>Email:</b><Link to='#'>info@junkybooks.com</Link></p>
     </div>
