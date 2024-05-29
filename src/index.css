@@ -60,7 +60,7 @@ textarea{
 body{
 	font-size: 20px;
 	line-height: 19px;
-	color: #242424;
+	color: #363636;
 	width: 100%;
 	font-family: 'Montserrat', arial, sans-serif;
 }
@@ -74,6 +74,9 @@ body{
 .dn{
 	display: none;
 }
+.db{
+	display: block;
+}
 section{
 	padding: 100px 0;
 }
@@ -86,7 +89,7 @@ section{
 	margin: 0 auto;
 }
 .color{
-	color: #BE963F;
+	color: #008575;
 }
 .dib{
 	display: inline-block;
@@ -95,7 +98,7 @@ section{
 	transition: 0.3s;
 }
 .hover:hover{
-	color: #BE963F;
+	color: #008575;
 }
 .btn{
 	background: linear-gradient(93.7deg, #a5a9a9 -1.69%, #caf2f3 37.58%, #717574 77.08%, #b5dede 109.84%);
@@ -117,13 +120,13 @@ section{
 	transition: 0.3s;
 }
 .btn:hover{
-	box-shadow: 0px 6px 5px 2px #3f6981;
+	box-shadow: 0px 6px 5px 2px #008575;
 }
 .link{
 	transition: 0.3s;
 }
 .link:hover{
-	box-shadow: 0px 6px 5px 2px #367983;
+	box-shadow: 0px 6px 5px 2px #008575;
 }
 .flex{
 	display: flex;

@@ -16,7 +16,8 @@
     padding: 25px 5px;
 }
 .aboutImg{
-    height: 300px;
-    width: 150px;
+    height: 450px;
+    width: 300px;
     text-align: center;
+    margin: 0 auto;
 }

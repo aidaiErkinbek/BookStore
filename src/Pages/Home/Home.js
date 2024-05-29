@@ -14,10 +14,13 @@ import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay'
 import { Link } from "react-router-dom";
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-import slide1 from '../../img/slide1.jpeg'
+import slide1 from '../../img/slide1.jpg'
 import slide2 from '../../img/slide2.jpg'
 import slide3 from '../../img/slide3.jpg'
 import slide4 from '../../img/slide4.jpg'
+import slide5 from '../../img/slide5.jpg'
+import slide6 from '../../img/slide6.jpg'
+import slide7 from '../../img/slide7.jpg'
 
 
 function Home() {
@@ -39,11 +42,7 @@ function Home() {
               src={slide1}
               alt=""
             />
-            <p className="Home_slide-txt">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Repellat ab assumenda distinctio. Ex ipsa beatae a totam
-              blanditiis repudiandae voluptas!
-            </p>
+           
           </Link>
         </SwiperSlide>
         <SwiperSlide>
@@ -52,11 +51,7 @@ function Home() {
               src={slide2}
               alt=""
             />
-            <p className="Home_slide-txt">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Repellat ab assumenda distinctio. Ex ipsa beatae a totam
-              blanditiis repudiandae voluptas!
-            </p>
+           
           </Link>
         </SwiperSlide>
         <SwiperSlide>
@@ -65,7 +60,7 @@ function Home() {
               src={slide3}
               alt=""
             />
-            <p className="Home_slide-txt">Lorem ipsum dolor sit amet.</p>
+            
           </Link>
         </SwiperSlide>
         <SwiperSlide>
@@ -74,12 +69,44 @@ function Home() {
               src={slide4}
               alt=""
             />
-            <p className="Home_slide-txt">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Dignissimos quo fugit, placeat quaerat quod magnam.
-            </p>
+           
           </Link>
         </SwiperSlide>
+
+        <SwiperSlide>
+          <Link className="Home_slide" to="#">
+            <img
+              src={slide5}
+              alt=""
+            />
+            
+          </Link>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Link className="Home_slide" to="#">
+            <img
+              src={slide6}
+              alt=""
+            />
+            
+          </Link>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Link className="Home_slide" to="#">
+            <img
+              src={slide7}
+              alt=""
+            />
+            
+          </Link>
+        </SwiperSlide>
+
+        <Link className="Home_slide" to="#">
+        <p className="Home_slide-txt">
+        Embark on a journey into a world of adventures, where mysterious lands full of secrets and dangers await the daring adventurer. Great heroes and sinister dark forces vie for dominance in this realm, where every twist and turn may hold new puzzles and trials. Immerse yourself in this thrilling adventure with BookDaSH!
+            </p></Link>
       </Swiper>
 
       <div className="container">

@@ -1,7 +1,16 @@
 .Shipping{
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
-.Tit{
-    
+.Del{
+    color: #707070;
+    margin-bottom: 15px;
+}
+.Ship{
+    margin-bottom: 25px;
+    font-size: 1.953rem;
+    font-weight: 400;
+}
+.WeShip{
+    margin-bottom: 10px;
 }

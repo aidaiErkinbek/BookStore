@@ -11,8 +11,9 @@ function About() {
    <img src={bg} alt="" />
    </div>
 <h2 className='ourStory'>Our Story</h2>
-<h3 className='AboutTit'>ThriftBooks - Read More. Spend Less.</h3>
-<div className='AboutTxt'>ThriftBooks started in 2003 with a pick-up truck of used books stashed in a storage unit, listing books solely on Amazon.com. Our first book sold was the beloved children's classic, Charlotte's Web by E.B. White. Over the years, we've added regional processing centers across the country and hundreds of employees. Throughout this time, we also built our processes to purchase, grade, and distribute used and rare/collectible books.</div>
+<div className='container'>
+<h3 className='AboutTit'>BookDaSH - Read More. Spend Less.</h3>
+<div className='AboutTxt'>BookDaSH started in 2003 with a pick-up truck of used books stashed in a storage unit, listing books solely on Amazon.com. Our first book sold was the beloved children's classic, Charlotte's Web by E.B. White. Over the years, we've added regional processing centers across the country and hundreds of employees. Throughout this time, we also built our processes to purchase, grade, and distribute used and rare/collectible books.</div>
 <div className='aboutImg'>
    <img src={about} alt="" />
    </div>
@@ -20,7 +21,7 @@ function About() {
 <br></br> <br></br>
 Our partnerships extend into communities across the country. Our profit-sharing relationship with libraries large and small enables us to support these valuable institutions by finding homes for ex-library books and working with Friends of Library groups across the country to provide financial support for their continued success. We give back to our communities through our ThriftBooks Cares pillar, designed to connect with communities in the US and globally donating books to those in need—including schools, non-profit organizations, and those rebuilding after natural disasters.
 <br></br> <br></br>
-We believe in books and the power of the written word to impact lives and societies across the globe, and we cherish our role in saving books to live another day to educate, entertain, inspire, and transform lives.</div>
+We believe in books and the power of the written word to impact lives and societies across the globe, and we cherish our role in saving books to live another day to educate, entertain, inspire, and transform lives.</div></div>
  </>  
   
   );

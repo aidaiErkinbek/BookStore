@@ -49,7 +49,7 @@ function App() {
         <Header />
         <CategoryList />
         <main>
-          <div className="container">
+          
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="about" element={<About />} />
@@ -59,7 +59,7 @@ function App() {
               <Route path="cart" element={<Cart />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
-          </div>
+          
         </main>
         <Footer />
       </Router>

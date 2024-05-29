@@ -45,3 +45,36 @@
 .bestCartIn{
    margin-bottom: 50px;
 }
+.Home_slide img{
+ margin-bottom: 10px;
+}
+.Home_slide-txt{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    z-index: 1;
+    width: 1200px;
+    text-align: center;
+    margin: auto 0;
+    margin-bottom: 30px;
+    background: rgba(0,0,0,0.4);
+    border-radius: 12px;
+    padding: 10px 0;
+}
+.Home_slide{
+    display: block;
+    position: relative;
+  }
+  .Home_slide::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.2);
+  }

@@ -62,7 +62,7 @@ function Footer() {
 
               </div>
 
-              <div className="FooterTxt"> <b>ThriftBooks</b> sells millions of used books at the lowest everyday prices. We personally assess every book's quality and offer rare, out-of-print treasures. We deliver the joy of reading in recyclable packaging with free standard shipping on US orders over $15.ThriftBooks.com. Read more. Spend less. </div>
+              <div className="FooterTxt"> <b>BookDaSH</b> sells millions of used books at the lowest everyday prices. We personally assess every book's quality and offer rare, out-of-print treasures. We deliver the joy of reading in recyclable packaging with free standard shipping on US orders over $15.BookDaSH.com. Read more. Spend less. </div>
             </div>
             <div className="FooterRight">
               <div className="FooterIc dib">
@@ -87,7 +87,7 @@ function Footer() {
           <div className='FooterBottom'>
             <div className='FooterBotIn flex'>
               <div className='FooterBotInLeft'>
-                <span className='FooterCopy'>Copyright © 2023 Thriftbooks.com</span><br></br>
+                <span className='FooterCopy'>Copyright © 2023 BookDaSH.com</span><br></br>
                 <div className='FooterBotLinks dib'>
                   <ul>
                     <li><Link to="#">Terms of Use |</Link></li>
@@ -99,7 +99,7 @@ function Footer() {
                   </ul>
                 </div>
                 <br></br>
-                <span className='FooterCopy'>ThriftBooks® and the ThriftBooks® logo are registered trademarks of Thrift Books Global, LLC</span>
+                <span className='FooterCopy'>BookDaSH® and the BookDaSH® logo are registered trademarks of Books DaSH Global, LLC</span>
               </div>
               <div className='FooterBotInRight'>
               <Link to="#" className="secure">
