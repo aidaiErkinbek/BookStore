@@ -7,7 +7,6 @@ import about from '../../img/about.jpg'
 function About() {
   return (
     <>
-   {/* <Header/> */}
    <div className='img'>
    <img src={bg} alt="" />
    </div>
@@ -22,9 +21,8 @@ function About() {
 Our partnerships extend into communities across the country. Our profit-sharing relationship with libraries large and small enables us to support these valuable institutions by finding homes for ex-library books and working with Friends of Library groups across the country to provide financial support for their continued success. We give back to our communities through our ThriftBooks Cares pillar, designed to connect with communities in the US and globally donating books to those in need—including schools, non-profit organizations, and those rebuilding after natural disasters.
 <br></br> <br></br>
 We believe in books and the power of the written word to impact lives and societies across the globe, and we cherish our role in saving books to live another day to educate, entertain, inspire, and transform lives.</div>
-   
-    {/* <Footer/> */}
-    </>
+ </>  
+  
   );
 }
 
