@@ -13,6 +13,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { createContext, useEffect, useState } from 'react';
 import { onAuthChange, onCategoriesLoad, onOrdersLoad, onProductsLoad } from './firebase';
 import CategoryList from './Components/CategoryList/CategoryList';
+import ProductList from './Components/ProductList/ProductList';
+
+
 export const AppContext = createContext({
   categories: [],
   products: [],
@@ -43,11 +46,14 @@ function App() {
     })
   }, []);
   return (
+
     <div className='App'>
+      <CategoryList />
+        <ProductList />
       <AppContext.Provider value={{ categories, cart, user, orders }} >
       <Router>
         <Header />
-        <CategoryList />
+        
         <main>
           
             <Routes>
