@@ -45,7 +45,7 @@ export default function AddProduct({ category }) {
           category: category.id,
           name: name,
           price: Number(price),
-          picture: pictureUrl,
+          img: pictureUrl,
           description: description,
           slug: name.replaceAll(" ", "-").toLowerCase(),
         })

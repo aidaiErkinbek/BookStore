@@ -4,10 +4,8 @@ import { useContext } from "react";
 import { AppContext } from "../../App";
 import AddCategory from "../AddCategory/AddCategory";
 import DeleteCategory from "../DeleteCategory/DeleteCategory";
-
 export default function CategoryList() {
   const { categories } = useContext(AppContext);
-
   const output = categories.map((category) => (
     <li key={category.id}>
       <NavLink to={"/categories/" + category.slug}>
@@ -17,10 +15,9 @@ export default function CategoryList() {
       <DeleteCategory category={category} />
     </li>
   ))
-
   return (
     <div className="CategoryList">
-      <button className="dropdownBtn"><span>Categories </span><i className="fa-solid fa-chevron-down fa-xs"></i></button>
+      <button className="dropdownBtn"><span>Categoriesasd </span><i className="fa-solid fa-chevron-down fa-xs"></i></button>
       <ul className="dropdownContent">{output}
       <AddCategory />
       </ul>
